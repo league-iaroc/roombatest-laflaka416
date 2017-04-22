@@ -18,9 +18,18 @@ public class Challenge extends Head {
 	 */
 	public void initialize() {
 		//write code here!
-		
-		
-		
+		driveDirect(100,100);
+		sleep(9000);
+		driveDirect(0,200);
+     	sleep(1600);
+		driveDirect(300,300);
+		sleep(9000);
+		driveDirect(0,100);
+		sleep(2000);
+		driveDirect(500,500);
+		sleep(6000);
+		driveDirect(0,100);
+	
 	}
 
 	public void loop() {
